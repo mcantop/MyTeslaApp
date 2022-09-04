@@ -11,6 +11,9 @@
 		52112C7828C2C91B00C58F00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52112C7728C2C91B00C58F00 /* ContentView.swift */; };
 		52112C7A28C2C91C00C58F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52112C7928C2C91C00C58F00 /* Assets.xcassets */; };
 		52112C7D28C2C91C00C58F00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52112C7C28C2C91C00C58F00 /* Preview Assets.xcassets */; };
+		524CC44E28C530EE0028B559 /* CarControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CC44D28C530EE0028B559 /* CarControlsView.swift */; };
+		524CC45028C5399D0028B559 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CC44F28C5399D0028B559 /* LocationView.swift */; };
+		524CC45228C539AA0028B559 /* CommonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CC45128C539AA0028B559 /* CommonComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		52112C7728C2C91B00C58F00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52112C7928C2C91C00C58F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52112C7C28C2C91C00C58F00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524CC44D28C530EE0028B559 /* CarControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarControlsView.swift; sourceTree = "<group>"; };
+		524CC44F28C5399D0028B559 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		524CC45128C539AA0028B559 /* CommonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				52112C7528C2C91B00C58F00 /* MyTeslaAppApp.swift */,
 				52112C7728C2C91B00C58F00 /* ContentView.swift */,
+				524CC44F28C5399D0028B559 /* LocationView.swift */,
+				524CC45128C539AA0028B559 /* CommonComponents.swift */,
+				524CC44D28C530EE0028B559 /* CarControlsView.swift */,
 				52112C7928C2C91C00C58F00 /* Assets.xcassets */,
 				52112C7B28C2C91C00C58F00 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52112C7828C2C91B00C58F00 /* ContentView.swift in Sources */,
+				524CC45028C5399D0028B559 /* LocationView.swift in Sources */,
+				524CC45228C539AA0028B559 /* CommonComponents.swift in Sources */,
+				524CC44E28C530EE0028B559 /* CarControlsView.swift in Sources */,
 				52112C7628C2C91B00C58F00 /* MyTeslaAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +296,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
